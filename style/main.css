@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    display: grid;
+    gap: 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    grid-row: 1;
+}
+
+#logo{
+    width: 10%;
+    max-width: 150px;
+}
+
+.container{
+    grid-row: 2;
+    display: grid;
+    justify-content: center;
+    color: white;
+}
