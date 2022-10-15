@@ -3,10 +3,14 @@ body{
     display: grid;
     gap: 20px 20px;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
 .header{
     grid-row: 1;
+    align-items: center;
+    display: flex;
+    column-gap: 30px;
 }
 
 #logo{
@@ -17,6 +21,22 @@ body{
 .container{
     grid-row: 2;
     display: grid;
+    row-gap: 30px;
     justify-content: center;
-    color: white;
+}
+
+#episode-img{
+    grid-row: 1;
+}
+
+#episode-info{
+    grid-row: 2;
+    display: grid;
+    gap: 10px;
+    font-size: large;
+}
+
+#episode-info .title{
+    font-size: x-large;
+    font-weight: bolder;
 }
