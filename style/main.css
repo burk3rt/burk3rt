@@ -27,6 +27,7 @@ body{
 
 #episode-img{
     grid-row: 1;
+    filter: blur(10px);
 }
 
 #episode-info{
@@ -42,5 +43,9 @@ body{
 }
 
 #open-in-spotify{
-
+    background-color: #1fdf64;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    height: 200%;
 }
