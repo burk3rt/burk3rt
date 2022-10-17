@@ -24,9 +24,11 @@ function fillApiContent(content) {
   const image = document.getElementById("episode-img");
 
   titleTag.innerText = content.name;
-  releaseTag.innerText = content.release_date;
+  releaseTag.innerText = "Veröffentlicht: " + content.release_date;
   image.src = content.images[0].url;
   spotifyUrl = content.link;
+
+  image.style.filter = "blur(0px)";
 }
 
 function openInSpotify() {

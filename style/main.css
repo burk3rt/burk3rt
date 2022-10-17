@@ -27,7 +27,7 @@ body{
 
 #episode-img{
     grid-row: 1;
-    filter: blur(10px);
+    filter:blur(10px)
 }
 
 #episode-info{
